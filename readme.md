@@ -1,9 +1,9 @@
 <h1 style="text-align: center; font-weight: bold;">Portifólio</h1>
 
-## Demo 📸
+## Demo
 
 <div align="center" >
-   <img src="port.mp4" alt="demo-mobile" height="425">
+   <img src="portifolio.gif" alt="demo-mobile" height="425">
 </div>
  ---
 
