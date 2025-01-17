@@ -12,7 +12,7 @@
 
 <body>
   <nav id="desktop-nav">
-    <div class="logo">Denise Schirmer</div>
+    <!-- <div class="logo">Denise Schirmer</div> -->
     <div>
       <ul class="nav-links">
         <li><a href="#about">Sobre</a></li>
@@ -40,10 +40,10 @@
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="denise.png" alt="profile picture" />
+      <img src="den.jpg" alt="profile picture" class="about-pic" />
     </div>
     <div class="section__text">
-      <p class="section__text__p1">Olá, Eu sou</p>
+      <p class="section__text__p1">Olá, Eu me chamo</p>
       <h1 class="title">Denise Schirmer</h1>
       <p class="section__text__p2">Desenvolvedora Front End</p>
       <div class="btn-container">
@@ -66,9 +66,9 @@
 
     <h1 class="title">Sobre Mim</h1>
     <div class="section-container">
-      <div class="section__pic-container">
+      <!-- <div class="section__pic-container">
         <img src="den.jpg" Profile picture" class="about-pic" />
-      </div>
+      </div> -->
       <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
@@ -95,6 +95,7 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
+
   <section id="experience">
 
     <h1 class="title">Skills</h1>
@@ -145,6 +146,7 @@
                 <p>Intermediário</p>
               </div>
             </article>
+            
           </div>
         </div>
         <div class="details-container">
@@ -178,12 +180,27 @@
                 <p>Básico</p>
               </div>
             </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>GitHub</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>NextJs</h3>
+                <p>Básico</p>
+              </div>
+            </article>
           </div>
         </div>
       </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
+
   <section id="projects">
     <p class="section__text__p1">Navegue nos projetos recentes:</p>
     <h1 class="title">Projetos</h1>
@@ -191,91 +208,132 @@
       <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+            <img src="assets/pet-project.png" alt="Project 1" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Project One</h2>
+          <h2 class="experience-sub-title project-title">Pet Schirmer</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/deniseschirmer/next-petschirmer'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://next-petschirmer-deniseschirmer.vercel.app'">
               Live Demo
             </button>
           </div>
         </div>
+  
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+            <img src="./assets/simpli-faxinas.png" alt="Project 2" class="project-img" />
           </div>
-          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <h2 class="experience-sub-title project-title">Simpli Faxinas</h2>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/deniseschirmer'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/deniseschirmer/simpli-faxinas'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/deniseschirmer'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://deniseschirmer.github.io/simpli-faxinas/'">
               Live Demo
             </button>
           </div>
         </div>
+  
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <img src="./assets/sistem.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Sistemas de Chamadas</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/deniseschirmer/sistema-de-chamados'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://deniseschirmer.github.io/sistema-de-chamados/'">
               Live Demo
             </button>
           </div>
-
         </div>
-      </div>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                Github
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                Live Demo
-              </button>
-            </div>
+  
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/newstech.png" alt="Project 4" class="project-img" />
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/deniseschirmer'">
-                Github
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https:github.com/deniseschirmer'">
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                Github
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                Live Demo
-              </button>
-            </div>
-
+          <h2 class="experience-sub-title project-title">Newstech</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Newstech01/newstech'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://newstech1.netlify.app/'">
+              Live Demo
+            </button>
           </div>
         </div>
       </div>
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </div>
+
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/backpacking.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Layout Backpacking</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/deniseschirmer/layout-backpacking'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://deniseschirmer.github.io/layout-backpacking/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+  
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/dev-complains.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Dev Complains</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/deniseschirmer/devComplains-ts'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://dev-complains.netlify.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+  
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/emailJs.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Formulário EmailJs</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/deniseschirmer/emailJs'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://formemailjs.netlify.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+  
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/to-do-list.png" alt="Project 4" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">To do List</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/deniseschirmer/to-do-list'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://lista-detarefas.netlify.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
   </section>
+
   <section id="contact">
     <p class="section__text__p1">Entre em contato comigo:</p>
     <h1 class="title">Contato</h1>
@@ -290,6 +348,7 @@
       </div>
     </div>
   </section>
+
   <footer>
     <nav>
       <div class="nav-links-container">
