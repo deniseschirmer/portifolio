@@ -4,7 +4,6 @@
 
 <div align="center" >
 <img src="./github/port1.png" alt="demo" height="425">
-   <img src="portifolio.gif" alt="demo-mobile" height="425">
 </div>
  ---
 
