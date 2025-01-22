@@ -177,7 +177,7 @@ footer nav {
 /* SECTIONS */
 
 section {
-  padding-top: 10vh;
+  padding-top: 9vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -351,7 +351,7 @@ section {
 
 #experience {
   position: relative;
-  padding: 4rem 2rem;
+  padding: 4rem 0;
 }
 
 .title {
@@ -365,7 +365,7 @@ section {
 .experience-details-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 3rem;
   margin-bottom: 1rem;
   
@@ -416,7 +416,7 @@ section {
 .skills-list li p {
   font-size: 0.95rem;
   color: #666;
-  text-align: left;
+  text-align: center;
 }
 
 .skills-list li::before {
