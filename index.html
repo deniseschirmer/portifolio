@@ -11,33 +11,35 @@
 </head>
 
 <body>
+  <header>
   <nav id="desktop-nav">
-    <div class="logo">Denise Schirmer</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#experience">Skills</a></li>
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
+  <div class="logo">Denise Schirmer</div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#experience">Skills</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+<nav id="hamburger-nav">
+  <div class="logo">Denise Schirmer</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Denise Schirmer</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
-      </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
     </div>
-  </nav>
+  </div>
+</nav>
+</header>
   <section id="profile">
     <div class="section__pic-container">
       <img src="den.jpg" alt="profile picture" class="about-pic" />
@@ -56,7 +58,7 @@
       </div>
       <div id="socials-container">
         <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
-          onclick="location.href='https:www.linkedin.com/in/deniseschirmer/'" />
+          onclick="location.href='https:www.linkedin.com/in/deniseschirmer/'" target="_blank" rel="noopener noreferrer" />
         <img src="./assets/github.png" alt="My Github profile" class="icon"
           onclick="location.href='https:github.com/deniseschirmer'" />
       </div>
@@ -94,109 +96,52 @@
   </section>
 
   <section id="experience">
-
-    <h1 class="title">Skills</h1>
+    <h1 class="title">Skills & Experiência</h1>
     <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Desenvolvimento Front End</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>HTML</h3>
-                <p>Intermediário</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>CSS</h3>
-                <p>Intermediário</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>SASS</h3>
-                <p>Intermediário</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>JavaScript</h3>
-                <p>Básico</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>TypeScript</h3>
-                <p>Básico</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Tailwind CSS</h3>
-                <p>Intermediário</p>
-              </div>
-            </article>
-            
-          </div>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Desenvolvedora de Software</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>PostgreSQL</h3>
-                <p>Básico</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Node JS</h3>
-                <p>Básico</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>React
-                  <p>Básico</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Git</h3>
-                <p>Básico</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>GitHub</h3>
-                <p>Intermediário</p>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>NextJs</h3>
-                <p>Básico</p>
-              </div>
-            </article>
-          </div>
-        </div>
+      <!-- Desenvolvimento Front-End -->
+      <div class="details-container">
+        <h2 class="experience-sub-title">Desenvolvimento Front End</h2>
+        <ul class="skills-list">
+          <li>
+            <h3>HTML & CSS</h3>
+            <p>Desenvolvi diversas páginas responsivas.</p>
+          </li>
+          <li>
+            <h3>JavaScript & TypeScript</h3>
+            <p>Implementei funcionalidades interativas.</p>
+          </li>
+          <li>
+            <h3>Tailwind CSS</h3>
+            <p>Utilizo o Tailwind CSS para criar interfaces web responsivas e estilizar componentes de forma ágil
+               e eficiente, aproveitando sua abordagem de classes utilitárias.</p>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Desenvolvimento de Software -->
+      <div class="details-container">
+        <h2 class="experience-sub-title">Desenvolvimento de Software</h2>
+        <ul class="skills-list">
+          <li>
+            <h3>React & Next.js</h3>
+            <p>Desenvolvi um painel de controle para rastreamento de pagamentos com integração a APIs.<br/>
+              Personalizei temas e criei componentes reutilizáveis, acelerando o desenvolvimento de interfaces.
+            </p>
+          </li>
+          <li>
+            <h3>Node.js & PostgreSQL</h3>
+            <p>Colabobei em um projeto de uma API RESTful com banco de dados PostgreSQL para gerenciar registros de usuários.</p>
+          </li>
+          <li>
+            <h3>Git & GitHub</h3>
+            <p>Colaborei em projetos de equipe, utilizando branches e pull requests para controle de versão.</p>
+          </li>
+        </ul>
       </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
+  
 
   <section id="projects">
     <p class="section__text__p1">Navegue nos projetos recentes:</p>
@@ -242,7 +187,7 @@
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/deniseschirmer/sistema-de-chamados'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://deniseschirmer.github.io/sistema-de-chamados/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://call-services.netlify.app/dashboard'">
               Live Demo
             </button>
           </div>

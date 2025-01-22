@@ -44,25 +44,25 @@
   }
   .about-containers {
     margin-top: 0;
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 600px) {
   #contact,
-  footer {
-    height: 40vh;
-  }
+ 
   #profile {
-    height: 83vh;
+    height: 40vh;
     margin-bottom: 0;
   }
   article {
     font-size: 1rem;
   }
-  footer nav {
+  /* footer nav {
     height: fit-content;
     margin-bottom: 2rem;
-  }
+    justify-content: center;
+  } */
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
