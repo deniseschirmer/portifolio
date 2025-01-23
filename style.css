@@ -177,7 +177,7 @@ footer nav {
 /* SECTIONS */
 
 section {
-  padding-top: 9vh;
+  padding-top: 15vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -313,6 +313,7 @@ section {
 
 .text-container {
   text-align: center;
+  padding: 0 1rem;
   
 }
 
@@ -365,8 +366,8 @@ section {
 .experience-details-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 3rem;
+  justify-content: center;
+  gap: 2rem;
   margin-bottom: 1rem;
   
 }
